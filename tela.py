@@ -12,6 +12,8 @@ janela.geometry("300x200")
 
 pergunta = tk.Label(janela, text="Qual é o seu nome?")
 pergunta.pack(pady=10)
+pergunta2 = tk.Label(janela, text="Qual é a sua idade?")
+pergunta.pack(pady=10)
 
 entrada = tk.Entry(janela)
 entrada.pack()
